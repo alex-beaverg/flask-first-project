@@ -1,0 +1,7 @@
+pip install flask (install module flask)
+pip install flask-sqlalchemy (install library flask sql alchemy)
+
+(create database):
+flask shell
+    -> from app import db
+    -> db.create_all()
